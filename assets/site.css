@@ -361,3 +361,17 @@ p{margin:0}
   .nav.open{display:flex}
   .nav .btn{margin:8px 0 0;justify-content:center}
 }
+
+/* v4: unidade em breve e arco do Cristo Rei */
+.ucards{grid-template-columns:repeat(auto-fit,minmax(210px,1fr))}
+.ucard-soon{border-style:dashed;background:transparent}
+.ucard-soon .ucard-band{background:repeating-linear-gradient(135deg,var(--u),var(--u) 14px,color-mix(in srgb,var(--u) 88%,#000) 14px,color-mix(in srgb,var(--u) 88%,#000) 28px)}
+.hero-units .soon-row{display:grid;grid-template-columns:22px 1fr auto;gap:14px;align-items:center;padding:16px 4px;color:#fff;opacity:.7}
+.hero-units .soon-row .flor{width:18px;color:#E8C98E}
+.hero-units .soon-row b{font:400 1.7rem/1.05 var(--display);font-style:italic}
+.hero-units .soon-row small{font:600 .72rem/1.2 var(--body);letter-spacing:.12em;text-transform:uppercase;color:#E8C98E;text-align:right}
+.arch{position:relative;overflow:hidden;background:var(--u);color:#fff;border-radius:260px 260px 18px 18px;aspect-ratio:1/1.05;width:100%;max-width:480px;display:grid;place-items:end start;padding:36px}
+.arch .flor{position:absolute;left:50%;top:44%;transform:translate(-50%,-50%);width:44%;opacity:.9;color:#fff}
+.arch-txt{position:relative;display:grid;gap:6px}
+.arch-txt small{font:600 .74rem/1 var(--body);letter-spacing:.16em;text-transform:uppercase;color:#F1D9D6}
+.arch-txt b{font:400 2.2rem/1.02 var(--display)}
