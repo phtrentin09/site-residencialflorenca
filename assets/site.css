@@ -407,3 +407,7 @@ p{margin:0}
 .vis h3{font-size:1.8rem;color:var(--u)}
 .vis p{color:var(--muted)}
 .vis .btn{margin-top:6px}
+
+/* v10: contraste dos nomes das casas no tema escuro */
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .vis h3,:root:not([data-theme="light"]) .tbl td:first-child a{color:var(--ink)}}
+:root[data-theme="dark"] .vis h3,:root[data-theme="dark"] .tbl td:first-child a{color:var(--ink)}
