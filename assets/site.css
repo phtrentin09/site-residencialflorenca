@@ -391,3 +391,10 @@ p{margin:0}
 .g-wide{grid-column:span 12}
 .g-wide img{aspect-ratio:3/1}
 @media (max-width:760px){.g-tall,.g-sq,.g-wide{grid-column:span 12;grid-row:auto}.g-sq img{aspect-ratio:4/3}.g-wide img{aspect-ratio:2/1}}
+
+/* v7: galeria em linhas */
+.rows{display:grid;gap:14px}
+.row{display:flex;gap:14px;aspect-ratio:var(--r,2.4)}
+.row figure{margin:0;min-width:0;overflow:hidden;border-radius:16px;background:var(--stone)}
+.row img{width:100%;height:100%;object-fit:cover;display:block}
+@media (max-width:760px){.row{flex-direction:column;aspect-ratio:auto}.row figure{flex:none!important;aspect-ratio:4/3}}
