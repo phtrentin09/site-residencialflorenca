@@ -398,3 +398,12 @@ p{margin:0}
 .row figure{margin:0;min-width:0;overflow:hidden;border-radius:16px;background:var(--stone)}
 .row img{width:100%;height:100%;object-fit:cover;display:block}
 @media (max-width:760px){.row{flex-direction:column;aspect-ratio:auto}.row figure{flex:none!important;aspect-ratio:4/3}}
+
+/* v8: página de visita */
+.vis{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:28px}
+.vis article{display:grid;gap:16px;align-content:start}
+.vis img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:16px}
+.vis article>div{display:grid;gap:8px;justify-items:start}
+.vis h3{font-size:1.8rem;color:var(--u)}
+.vis p{color:var(--muted)}
+.vis .btn{margin-top:6px}
